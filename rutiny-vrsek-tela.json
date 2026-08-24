@@ -1,7 +1,7 @@
-{
+  {
   "type": "zelezo-pack",
-  "name": "Vršek + zadek a břicho, 3× týdně",
-  "note": "Priorita ramena, paže, předloktí, prsa a šířka zad. Třetí den zadek a břicho se zátěží. Krk 2× týdně v obou směrech.",
+  "name": "4 dny v posilovně + 3 běhy",
+  "note": "Po/St lehký běh 140–155 tepů, Pá tvrdý. Út nohy/core/krk/předloktí, Čt pump, So push, Ne pull. Běhy se zapisují jako km, čas a tep.",
   "exercises": [
     {
       "name": "Tlak s jednoručkami na šikmé lavici",
@@ -82,95 +82,128 @@
       "name": "Pallofův tlak",
       "muscle": "Břicho",
       "kind": "weight"
+    },
+    {
+      "name": "Tlak na stroji",
+      "muscle": "Prsa",
+      "kind": "weight"
+    },
+    {
+      "name": "Rozpažování na kladce",
+      "muscle": "Prsa",
+      "kind": "weight"
+    },
+    {
+      "name": "Běh lehký",
+      "muscle": "Kardio",
+      "kind": "cardio"
+    },
+    {
+      "name": "Běh tempový",
+      "muscle": "Kardio",
+      "kind": "cardio"
+    },
+    {
+      "name": "HIIT / intervaly",
+      "muscle": "Kardio",
+      "kind": "cardio"
+    },
+    {
+      "name": "Přítahy na stroji s oporou hrudi",
+      "muscle": "Záda",
+      "kind": "weight"
+    },
+    {
+      "name": "Stahování horní kladky úzkým úchopem",
+      "muscle": "Záda",
+      "kind": "weight"
+    },
+    {
+      "name": "Shyby s dopomocí stroje",
+      "muscle": "Záda",
+      "kind": "weight"
     }
   ],
   "routines": [
     {
-      "name": "Tlaky",
+      "name": "Push (těžký)",
       "color": "#CE2E2E",
       "exercises": [
         {
           "name": "Tlak s jednoručkami na šikmé lavici",
-          "sets": 3,
+          "sets": 4,
           "repLow": 6,
           "repHigh": 10,
-          "rest": 180
-        },
-        {
-          "name": "Bench press",
-          "sets": 4,
-          "repLow": 8,
-          "repHigh": 12,
           "rest": 150
         },
         {
-          "name": "Kliky na bradlech",
-          "sets": 2,
+          "name": "Tlak na stroji",
+          "sets": 3,
           "repLow": 8,
           "repHigh": 12,
           "rest": 120
+        },
+        {
+          "name": "Rozpažování na kladce",
+          "sets": 3,
+          "repLow": 12,
+          "repHigh": 15,
+          "rest": 90
         },
         {
           "name": "Tlak s jednoručkami nad hlavu",
           "sets": 3,
           "repLow": 8,
           "repHigh": 12,
-          "rest": 150
+          "rest": 120
         },
         {
           "name": "Upažování na kladce",
           "sets": 4,
-          "repLow": 12,
-          "repHigh": 20,
-          "rest": 90
-        },
-        {
-          "name": "Tricepsové extenze nad hlavu",
-          "sets": 3,
           "repLow": 10,
           "repHigh": 15,
           "rest": 90
         },
         {
-          "name": "Tricepsové stahování kladky",
+          "name": "Tricepsové extenze nad hlavu",
           "sets": 3,
-          "repLow": 12,
+          "repLow": 8,
+          "repHigh": 12,
+          "rest": 90
+        },
+        {
+          "name": "Tricepsové stahování kladky",
+          "sets": 2,
+          "repLow": 10,
           "repHigh": 15,
           "rest": 75
-        },
-        {
-          "name": "Flexe krku s kotoučem",
-          "sets": 2,
-          "repLow": 15,
-          "repHigh": 20,
-          "rest": 60
-        },
-        {
-          "name": "Extenze krku s postrojem",
-          "sets": 2,
-          "repLow": 15,
-          "repHigh": 20,
-          "rest": 60
         }
       ]
     },
     {
-      "name": "Tahy",
+      "name": "Pull (těžký)",
       "color": "#2158CC",
       "exercises": [
         {
-          "name": "Shyby nadhmatem",
+          "name": "Stahování horní kladky",
           "sets": 4,
-          "repLow": 6,
-          "repHigh": 12,
-          "rest": 180
-        },
-        {
-          "name": "Přítahy jednoruček v předklonu",
-          "sets": 3,
           "repLow": 8,
           "repHigh": 12,
           "rest": 150
+        },
+        {
+          "name": "Přítahy na stroji s oporou hrudi",
+          "sets": 4,
+          "repLow": 8,
+          "repHigh": 12,
+          "rest": 150
+        },
+        {
+          "name": "Veslování na kladce",
+          "sets": 3,
+          "repLow": 10,
+          "repHigh": 12,
+          "rest": 90
         },
         {
           "name": "Stahování s napjatýma rukama",
@@ -187,30 +220,37 @@
           "rest": 75
         },
         {
-          "name": "Upažování s jednoručkami",
-          "sets": 4,
+          "name": "Shrugy",
+          "sets": 3,
           "repLow": 12,
-          "repHigh": 20,
-          "rest": 90
+          "repHigh": 15,
+          "rest": 75
         },
         {
           "name": "Bicepsový zdvih na šikmé lavici",
-          "sets": 3,
+          "sets": 4,
           "repLow": 8,
           "repHigh": 12,
           "rest": 90
         },
         {
-          "name": "Kladivový zdvih",
+          "name": "Obrácený zdvih",
           "sets": 3,
-          "repLow": 10,
+          "repLow": 12,
           "repHigh": 15,
-          "rest": 90
+          "rest": 75
+        },
+        {
+          "name": "Shyby s dopomocí stroje",
+          "sets": 2,
+          "repLow": 6,
+          "repHigh": 10,
+          "rest": 120
         }
       ]
     },
     {
-      "name": "Zadek, břicho a ramena",
+      "name": "Nohy, core a detaily",
       "color": "#1E8A4C",
       "exercises": [
         {
@@ -218,7 +258,7 @@
           "sets": 4,
           "repLow": 8,
           "repHigh": 12,
-          "rest": 150
+          "rest": 120
         },
         {
           "name": "Chodící výpady s jednoručkami",
@@ -232,11 +272,18 @@
           "sets": 3,
           "repLow": 8,
           "repHigh": 12,
-          "rest": 150
+          "rest": 120
+        },
+        {
+          "name": "Výpony na lýtka",
+          "sets": 3,
+          "repLow": 12,
+          "repHigh": 15,
+          "rest": 60
         },
         {
           "name": "Přítahy kolen na kladce vkleče",
-          "sets": 4,
+          "sets": 3,
           "repLow": 10,
           "repHigh": 15,
           "rest": 90
@@ -249,24 +296,10 @@
           "rest": 90
         },
         {
-          "name": "Upažování s jednoručkami",
-          "sets": 3,
-          "repLow": 12,
-          "repHigh": 20,
-          "rest": 90
-        },
-        {
           "name": "Zdvih zápěstí",
           "sets": 3,
           "repLow": 15,
           "repHigh": 20,
-          "rest": 60
-        },
-        {
-          "name": "Obrácený zdvih",
-          "sets": 2,
-          "repLow": 12,
-          "repHigh": 15,
           "rest": 60
         },
         {
@@ -284,11 +317,82 @@
           "rest": 60
         }
       ]
+    },
+    {
+      "name": "Upper pump",
+      "color": "#E5B72A",
+      "exercises": [
+        {
+          "name": "Upažování s jednoručkami",
+          "sets": 4,
+          "repLow": 15,
+          "repHigh": 20,
+          "rest": 75
+        },
+        {
+          "name": "Rozpažování na kladce",
+          "sets": 3,
+          "repLow": 15,
+          "repHigh": 20,
+          "rest": 75
+        },
+        {
+          "name": "Stahování s napjatýma rukama",
+          "sets": 3,
+          "repLow": 15,
+          "repHigh": 20,
+          "rest": 75
+        },
+        {
+          "name": "Kladivový zdvih",
+          "sets": 3,
+          "repLow": 12,
+          "repHigh": 15,
+          "rest": 75
+        },
+        {
+          "name": "Tricepsové stahování kladky",
+          "sets": 3,
+          "repLow": 15,
+          "repHigh": 20,
+          "rest": 75
+        }
+      ]
+    },
+    {
+      "name": "Běh lehký",
+      "color": "#6BC5D2",
+      "exercises": [
+        {
+          "name": "Běh lehký",
+          "sets": 1,
+          "repLow": 30,
+          "repHigh": 40,
+          "rest": 60
+        }
+      ]
+    },
+    {
+      "name": "Běh tvrdý",
+      "color": "#EC6F2A",
+      "exercises": [
+        {
+          "name": "Běh tempový",
+          "sets": 1,
+          "repLow": 25,
+          "repHigh": 35,
+          "rest": 60
+        }
+      ]
     }
   ],
   "weeklyPlan": {
-    "1": "Tlaky",
-    "3": "Tahy",
-    "5": "Zadek, břicho a ramena"
+    "1": "Běh lehký",
+    "2": "Nohy, core a detaily",
+    "3": "Běh lehký",
+    "4": "Upper pump",
+    "5": "Běh tvrdý",
+    "6": "Push (těžký)",
+    "0": "Pull (těžký)"
   }
 }
